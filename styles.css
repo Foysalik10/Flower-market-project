@@ -249,3 +249,54 @@ footer ul li {
   background-color: #e95a08;
   border: none;
 }
+@media (max-width: 768px) {
+  * {
+    margin: 0 20px;
+  }
+  nav {
+    flex-direction: column;
+    text-align: center;
+  }
+  .nav-elements {
+    display: none;
+
+  }
+  .list-item3{
+    display: all;
+  }
+
+  .nav-elements li:last-child {
+    display: ;
+  }
+  .banner-content-container {
+    flex-direction: column;
+  }
+  .plants {
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+    align-items: center;
+  }
+  .cards-all {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .plant-lover {
+    flex-direction: column;
+  }
+  .plant-lover-contents {
+    flex-direction: column;
+  }
+  footer {
+    flex-direction: column;
+  }
+  .join-section {
+    flex-direction: column;
+    width: 100%;
+  }
+  .badge{
+    display: none;
+  }
+.banner-image{
+  padding-left: 0;
+}
